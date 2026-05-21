@@ -106,14 +106,3 @@ Các API chính:
 | POST | `/predict` | Dự đoán 1 review |
 | POST | `/predict_batch` | Upload CSV có cột `rating`, `content` để dự đoán hàng loạt |
 
-## Lưu ý dữ liệu public
-
-`Dataset_quan.csv` được đưa lên repository theo yêu cầu nộp bài. File này có cột `customer_name`, vì vậy cần cân nhắc quyền riêng tư nếu repository để public.
-
-Các file vẫn bị ignore:
-
-- `.env`
-- `venv/`, `webapp/.venv/`
-- `onnx_export.zip`
-- `Dataset_duy.csv`
-- `Dataset_quan_relabeled.csv`
