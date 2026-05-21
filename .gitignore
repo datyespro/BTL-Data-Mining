@@ -35,7 +35,6 @@ onnx_export.zip
 
 # Raw datasets contain customer names or other personal data.
 Dataset_duy.csv
-Dataset_quan.csv
 Dataset_quan_relabeled.csv
 
 # Generated/debug files
